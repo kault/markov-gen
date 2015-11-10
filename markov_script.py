@@ -1,6 +1,6 @@
 __author__ = 'kault';
 
-import markov_gen
+import MarkovGen
 
 corpus = open('/Users/kault/Desktop/blog/jeeves.txt');
 markov = MarkovGen.Markov(corpus);
